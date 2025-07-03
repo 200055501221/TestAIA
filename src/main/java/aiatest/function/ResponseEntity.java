@@ -11,6 +11,7 @@ public class ResponseEntity {
         this.message = message;
     }
 
+    
     public int getStatusCode() {
         return statusCode;
     }
