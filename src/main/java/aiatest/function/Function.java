@@ -67,7 +67,7 @@ public class Function {
                     stmt.setInt(4, age);
                     stmt.executeUpdate();
                 }
-
+                context.getLogger().info("User Inserted");
                 return successResponse(request, "User inserted successfully");
 
             } else if (method == HttpMethod.PUT) {
